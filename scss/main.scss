@@ -46,10 +46,28 @@ body{
             .social{
                margin-left: 60%;
                span{
-                   margin-left: 0.2%;
+                   margin-left: 0.5%;
                }
             }
         }
         
+    }
+}
+
+.content{
+    margin-top: 15%;
+    
+    h1{
+        color: white;
+        font-size: 4rem;
+    }
+    p{
+        font-weight: 900;
+        margin-top: 2%;
+        font-size: 1.5rem;
+        color:white;
+        line-height: 40px;
+        opacity: 0.8;
+        font-family: 'IBM Plex Sans', sans-serif;
     }
 }
