@@ -3,6 +3,10 @@
     margin-right: 15%;
 }
 
+@mixin theme{
+
+}
+
 body{
 	background-color: #1a202c;
 }
@@ -17,15 +21,16 @@ body{
         }
 
         h1{
-            
+            display: flex;
+            justify-content: space-between;
             color: white;
-            font-size: 3rem;
+            font-size: 2rem;
             font-family: 'Baloo Paaji 2', cursive;
             i{
-                margin-left: 65%;
+                
                 color: white;
                 opacity: 0.6;
-
+                cursor: pointer;
                 
             }
             i:hover{
@@ -34,20 +39,23 @@ body{
            
         }
         h6{
+            display: flex;
+            justify-content: space-between;
             margin-top: 3%;
             font-size: 1.1em;
             color: white;
-            opacity: 0.5;
+            
             font-family: 'IBM Plex Sans', sans-serif;
             span{
                 margin-left: 1%;
+                cursor: pointer;
+                opacity: 0.5;
             }
-         
-            .social{
-               margin-left: 60%;
-               span{
-                   margin-left: 0.5%;
-               }
+            span:hover{
+                color:white;
+                opacity: 1;
+                font-weight: 700;
+
             }
         }
         
@@ -69,5 +77,10 @@ body{
         line-height: 40px;
         opacity: 0.8;
         font-family: 'IBM Plex Sans', sans-serif;
+        span{
+            color:orangered;
+            font-weight: 900;
+            font-family: 'Baloo Paaji 2', cursive;
+        }
     }
 }

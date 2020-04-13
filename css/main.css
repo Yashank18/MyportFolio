@@ -16,15 +16,21 @@ body {
 }
 
 .main header h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   color: white;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: 'Baloo Paaji 2', cursive;
 }
 
 .main header h1 i {
-  margin-left: 65%;
   color: white;
   opacity: 0.6;
+  cursor: pointer;
 }
 
 .main header h1 i:hover {
@@ -32,23 +38,28 @@ body {
 }
 
 .main header h6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 3%;
   font-size: 1.1em;
   color: white;
-  opacity: 0.5;
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .main header h6 span {
   margin-left: 1%;
+  cursor: pointer;
+  opacity: 0.5;
 }
 
-.main header h6 .social {
-  margin-left: 60%;
-}
-
-.main header h6 .social span {
-  margin-left: 0.5%;
+.main header h6 span:hover {
+  color: white;
+  opacity: 1;
+  font-weight: 700;
 }
 
 .content {
@@ -68,5 +79,11 @@ body {
   line-height: 40px;
   opacity: 0.8;
   font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.content p span {
+  color: orangered;
+  font-weight: 900;
+  font-family: 'Baloo Paaji 2', cursive;
 }
 /*# sourceMappingURL=main.css.map */
