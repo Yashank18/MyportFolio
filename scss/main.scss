@@ -12,7 +12,9 @@ body{
 }
 .main{
     @include outer;
-    
+    hr{
+        border-top: 2px solid #2f3744;
+    }
 
     header{
         margin-top: 4%;
@@ -34,7 +36,8 @@ body{
                 
             }
             i:hover{
-                opacity: 1;
+                opacity: 0.8;
+                color:orangered
             }
            
         }
@@ -50,6 +53,9 @@ body{
                 margin-left: 1%;
                 cursor: pointer;
                 opacity: 0.5;
+                a{
+                    color: white;
+                }
             }
             span:hover{
                 color:white;
@@ -59,6 +65,15 @@ body{
             }
         }
         
+    }
+    .skill{
+        color:orangered;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 3rem;
+        i{
+            
+            font-size: 2rem;
+        }
     }
 }
 
@@ -83,4 +98,14 @@ body{
             font-family: 'Baloo Paaji 2', cursive;
         }
     }
+}
+.progress-bar{
+    background-color:orangered 
+}
+.phead{
+    color: #7c899a;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+.progressdiv{
+    margin-top: 4%;
 }
