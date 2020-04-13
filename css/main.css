@@ -27,11 +27,12 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   color: white;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: 'Baloo Paaji 2', cursive;
 }
 
 .main header h1 i {
+  font-size: 2rem;
   color: white;
   opacity: 0.6;
   cursor: pointer;
@@ -117,5 +118,34 @@ body {
 
 .progressdiv {
   margin-top: 4%;
+}
+
+.exp i {
+  color: orangered;
+  font-size: 3.5rem;
+}
+
+.exp div div {
+  padding: 10% 5%;
+  border: 1px solid orangered;
+  margin-top: 10%;
+}
+
+.exp div div h3 {
+  font-size: 2.2rem;
+  color: white;
+  font-family: 'Baloo Paaji 2', cursive;
+}
+
+.exp div div h6 {
+  font-size: 1.1rem;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.exp div div p {
+  font-size: 0.9rem;
+  color: orangered;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 /*# sourceMappingURL=main.css.map */
