@@ -56,6 +56,7 @@ body{
 
     header{
         margin-top: 4%;
+        
         hr{
             border-top: 2px solid #2f3744;
         }
@@ -66,6 +67,10 @@ body{
             color: white;
             font-size: 3rem;
             font-family: 'Baloo Paaji 2', cursive;
+            button{
+                background-color: #1a202c;
+                border: none;
+            }
             i{
                 font-size: 2rem;
                 color: white;
@@ -161,5 +166,32 @@ body{
             font-size: 2.0rem;
             color: orangered;
             font-family: 'IBM Plex Sans', sans-serif;
+        }
+    }
+    .lighttheme{
+        background-color: white;
+        h1{
+            color: black;
+        }
+        h6{
+            color: black;
+        }
+        h2{
+            color: black;
+        }
+        h3{
+            color: black;
+        }
+        h4{
+            color: black;
+        }
+        h5{
+            color: black;
+        }
+        p{
+            color: black;
+        }
+        i{
+            color: black;
         }
     }

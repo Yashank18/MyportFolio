@@ -31,6 +31,11 @@ body {
   font-family: 'Baloo Paaji 2', cursive;
 }
 
+.main header h1 button {
+  background-color: #1a202c;
+  border: none;
+}
+
 .main header h1 i {
   font-size: 2rem;
   color: white;
@@ -189,5 +194,41 @@ body {
   font-size: 2.0rem;
   color: orangered;
   font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.lighttheme {
+  background-color: white;
+}
+
+.lighttheme h1 {
+  color: black;
+}
+
+.lighttheme h6 {
+  color: black;
+}
+
+.lighttheme h2 {
+  color: black;
+}
+
+.lighttheme h3 {
+  color: black;
+}
+
+.lighttheme h4 {
+  color: black;
+}
+
+.lighttheme h5 {
+  color: black;
+}
+
+.lighttheme p {
+  color: black;
+}
+
+.lighttheme i {
+  color: black;
 }
 /*# sourceMappingURL=main.css.map */
