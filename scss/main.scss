@@ -3,6 +3,44 @@
     margin-right: 15%;
 }
 
+@mixin card($size){
+    
+        i{
+            
+            color: orangered;
+            font-size: $size;
+        }
+        
+        div{
+            
+            div{
+                        
+                padding: 10% 5%;
+                border: 1px solid orangered;
+                margin-top: 10%;
+                h3{
+                    margin-top: 3%;
+                    font-size: 2.2rem;
+                    color: white;
+                    font-family: 'Baloo Paaji 2', cursive;
+
+                    
+                }
+                h6{
+                    font-size: 1.1rem;
+                    color:white;
+                    font-family: 'IBM Plex Sans', sans-serif;
+                }
+                p{
+                    font-size: 0.9rem;
+                    color:orangered;
+                    font-family: 'IBM Plex Sans', sans-serif;
+                }
+            }
+        }
+    
+}
+
 @mixin theme{
 
 }
@@ -109,35 +147,19 @@ body{
 .progressdiv{
     margin-top: 4%;
 }
-.exp{
-    i{
-        
-        color: orangered;
-        font-size: 3.5rem;
-    }
-    
-    div{
-        
-        div{
-                    
-            padding: 10% 5%;
-            border: 1px solid orangered;
-            margin-top: 10%;
-            h3{
-                font-size: 2.2rem;
-                color: white;
-                font-family: 'Baloo Paaji 2', cursive;
-            }
-            h6{
-                font-size: 1.1rem;
-                color:white;
-                font-family: 'IBM Plex Sans', sans-serif;
-            }
-            p{
-                font-size: 0.9rem;
-                color:orangered;
-                font-family: 'IBM Plex Sans', sans-serif;
-            }
+.exp {
+    @include card(3.5rem);
+}
+.achi{
+        @include card(1.5rem);
+        img{
+
+            height: 250px;
+            width: 200px;
+        }
+        h5{
+            font-size: 2.0rem;
+            color: orangered;
+            font-family: 'IBM Plex Sans', sans-serif;
         }
     }
-}
